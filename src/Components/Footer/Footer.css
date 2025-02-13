@@ -1,0 +1,24 @@
+.footer{
+    width: 1440;
+height: 488;
+background: linear-gradient(96.09deg, #070841 3.99%, #5500D6 47.2%, #4C0465 96.92%);
+color: white;
+display: flex;
+gap: 30px;
+justify-content: center;
+padding:100px 50px;
+}
+.about, .pages, .Contact{
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.pages > .page_links, .Contact > .contact_links{
+ display: flex;
+ gap: 40px;
+}
+.contact_links > span{
+    display: flex;
+    flex-direction: column;
+}
