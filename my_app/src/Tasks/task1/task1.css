@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+}
+.navBar > img{
+    width: 150px;
+}
+.navRight{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.navRight > span{
+    font-size: 20px;
+}
+button{
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+}
+.navRight > button{
+    background-color: rgb(0, 183, 255);
+}
+.body{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.body > h1{
+    font-size: 60px;
+}
+.body > h1 > span{
+    color: rgb(0, 183, 255);
+}
+.body > p{
+    font-size: 20px;
+}
+.btnDiv{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.btnDiv > button{
+    background-color: gainsboro;
+}
+#btnBlue{
+    background-color: rgb(0, 183, 255);
+}

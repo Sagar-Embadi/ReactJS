@@ -1,0 +1,29 @@
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  box-shadow: 2px 2px 5px black;
+}
+.navBar > img{
+  width: 120px;
+}
+.navItems{
+  display: flex;
+  gap: 20px;
+}
+.navItems > span{
+  font-size: 18px;
+  font-weight: 500;
+}
+.navButtons{
+  display: flex;
+  gap: 20px;
+}
+.navButtons > button{
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: burlywood;
+}
