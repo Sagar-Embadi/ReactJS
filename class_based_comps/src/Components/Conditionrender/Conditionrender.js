@@ -14,7 +14,6 @@ class Conditionrender extends React.Component{
   render(){
     return(
       <div>
-        
         <button id="button" onClick={()=>this.setState({loginShow:!this.state.loginShow})}>Login</button>
         {this.state.loginShow &&  <Login/>}
       </div>
