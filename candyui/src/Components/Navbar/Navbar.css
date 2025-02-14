@@ -1,0 +1,15 @@
+.navbar{
+    padding: 20px 80px !important;
+}
+.brand{
+    font-size: 50px;
+    font-weight: 700;
+}
+.collapse{
+    justify-content: flex-end;
+}
+.links{
+    gap:30px;
+    color: black;
+    font-size: 18px;
+}
