@@ -1,0 +1,20 @@
+.section,.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 100px;
+}
+.section2{
+    flex-direction: row-reverse;
+}
+.section_content,.section_content2, .section >img,.section2>img{
+    width: 35vw;
+}
+.section_content > h1,.section_content2 > h1{
+    font-size: 55px;
+}
+.section_content > p,.section_content2 > p{
+    font-size: 25px;
+    padding: 30px 0px;
+}

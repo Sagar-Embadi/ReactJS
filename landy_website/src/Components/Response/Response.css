@@ -1,0 +1,42 @@
+.response{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.response_img{
+    width: 450px;
+}
+.response_img >img{
+    width: 100%;
+}
+.response_content{
+    width: 450px;
+}
+.response_content > h1{
+    font-size: 50px;
+}
+.response_content > p{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.why{
+    display: flex;
+    gap: 30px;
+}
+.antD, .styled{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+.antD > img, .styled >img{
+    width: 80px;
+}
+.antD > p,.styled >p{
+    font-weight: 600;
+}
+.antD > span,.styled >span{
+    font-size: 13px;
+}

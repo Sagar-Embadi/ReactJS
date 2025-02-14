@@ -1,0 +1,18 @@
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+.intro > h1{
+    font-size: 50px;
+    width: 500px;
+}
+.intro > p{
+    font-size: 20px;
+    padding: 20px;
+    width: 550px;
+}
