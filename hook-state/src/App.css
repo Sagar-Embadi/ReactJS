@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+#navbar{
+  padding: 20px 120px;
+  display: flex;
+  justify-content: space-between;
+  background-color:burlywood;
+  align-items: center;
+}
+
+#nav-right{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+}
+#nav-right > button{
+  background-color: rgb(118, 212, 243);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+#nav-right > p{
+  font-size: 25px;
+}
