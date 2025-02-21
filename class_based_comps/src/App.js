@@ -1,10 +1,12 @@
 
-import Conditionrender from './Components/Conditionrender/Conditionrender';
+// import Conditionrender from './Components/Conditionrender/Conditionrender';
+import { Fetch } from "./Components/Fetch/Fetch";
 
 function App() {
   return (
     <div className="App">
-      <Conditionrender/>
+      <Fetch/>
+      {/* <Conditionrender/> */}
     </div>
   );
 }
