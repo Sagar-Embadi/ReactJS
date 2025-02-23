@@ -11,7 +11,7 @@ export function Navbar1() {
         <>
             <Navbar style={{padding: "20px 100px"}} bg='dark' expand="md" className='navbar'>
                 <NavLink to="/" style={{color:"white",textDecoration:"none",fontSize:35}}>Delicious Recipes</NavLink>
-                <Navbar.Toggle></Navbar.Toggle>
+                <Navbar.Toggle style={{backgroundColor:"grey"}}></Navbar.Toggle>
                 <Navbar.Collapse className='collapse'>
                     <Nav style={{ gap: 30,}}>
                         <NavLink to="/home" element={<Home/>} style={{textDecoration:"none",color:"white",fontSize:20}}>Home</NavLink>
