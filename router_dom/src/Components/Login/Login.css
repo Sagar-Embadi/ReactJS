@@ -1,0 +1,77 @@
+.auth-section {
+    padding: 40px 20px;
+    background-color: #ecf0f1;
+    
+}
+
+.auth-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.auth-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.auth-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.auth-form label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.auth-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.auth-form input:focus {
+    outline: none;
+    border-color: #1abc9c;
+}
+
+.auth-form .submit-btn {
+    background-color: #1abc9c;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.auth-form .submit-btn:hover {
+    background-color: #16a085;
+}
+
+.auth-form .auth-footer {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.auth-form .auth-footer a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.auth-form .auth-footer a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,19 @@
+.navbar{
+    padding: 20px 80px;
+    display: flex !important;
+    justify-content: space-around !important;
+    gap: 50px;
+}
+.collapse{
+    justify-content: flex-end;
+}
+.navBtns button{
+    border-radius: 10px;
+    border: none;
+    background-color: #FDB7EA;
+    padding: 8px 15px;
+    
+}
+.navBtns button:hover{
+    background-color: #AA60C8;
+}
