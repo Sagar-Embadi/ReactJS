@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.bgi{
+    background: url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1msIHy.img");
+    height: 100vh;
+}
+.app_name{
+    text-align: center;
+    padding-top: 30px;
+}
+.app{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search{
+    padding: 80px;
+}
+.search > input{
+    padding: 10px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.297);
+    font-size: 20px;
+    color: black;
+}
+.search > input::placeholder{
+
+    color: black;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 30px;
+    width: 600px;
+    border-radius: 30px;
+}
+
+.city{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h2,h1{
+    color: navy;
+}
+h3,h4,h2> span{
+    color:rgb(17, 72, 240)
+}
+.temp{
+    color: rgb(59, 119, 232);
+    font-size: 60px;
+    margin-right: 30px;
+}
+.weather{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    text-align: center;
+}
+h2 > span{
+    font-size: 90%;
+}
